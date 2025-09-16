@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1E7esMuOS6yV-3lmhSiHwa8Bbw45lM7xL
 """
 
-!pip install -q datasets transformers accelerate torchaudio librosa
+# !pip install -q datasets transformers accelerate torchaudio librosa
 
 import json
 import numpy as np
@@ -94,7 +94,7 @@ trainer = Seq2SeqTrainer(
 # ✅ Train
 trainer.train()
 
-!pip install -q transformers torchaudio librosa jiwer
+# !pip install -q transformers torchaudio librosa jiwer
 
 import os
 import torch
